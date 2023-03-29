@@ -1,0 +1,110 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    background-image: url(https://images2.alphacoders.com/705/thumb-1920-705837.png);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lucida Sans', Verdana;
+}
+
+h1, p {
+    margin: 15px;
+    text-align: center;
+    font-size: 35px;
+}
+
+p {
+    font-style: oblique;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px 10px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(200, 100, 230, 30%);
+  }
+  
+fieldset {
+    border:none;
+}
+
+label {
+    display: block;
+    margin-bottom:3px;
+    font-size: 20px;
+}
+
+input {
+    width: 100%;
+    height:30px;
+    margin: 10px 0;
+    padding: 5px;
+    border-color: rebeccapurple;
+    border-radius:6px;
+    border-width: 3px;
+}
+
+select {
+    width: 100%;
+    height:30px;
+    margin:10px 0;
+    padding:5px;
+    border-color: rebeccapurple;
+    border-radius:6px;
+    border-width: 3px;
+}
+
+textarea {
+    width: 100%;
+    margin-top:15px;
+    border-color: rebeccapurple;
+    border-radius:6px;
+    border-width: 3px;
+}
+
+.inline {
+    width: unset;
+    margin:unset;
+    margin-left: 10px;
+}
+
+.button {
+    width: 450px;
+    height: 50px;
+    margin-top:15px;
+    font-weight: 800;
+    font-size:25px;
+    background-color: rgb(253, 196, 224);
+    border-radius: 10px;
+    border-color: rebeccapurple;
+    border-width:5px;
+}
+
+#name-label, #email-label, #number-label, #question, #kind, #program, #extra-label {
+    font-weight:600;
+}
+
+.input-container {
+  display: flex;
+  justify-content: start;
+  align-items:center;
+  gap: 5px
+}

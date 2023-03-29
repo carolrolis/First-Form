@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="SurveyForm.css">
+</head>
+
+<body>
+  <h1 id="title"> Survey Form </h1>
+  <p id="description"> The better you answer, the more it will help us. </p>
+  
+  <form id="survey-form" method="post" action="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+
+    <div class="container">
+
+      <fieldset>
+        <label for="name" id="name-label"> Tell me your name: </label>
+
+          <input required id="name" type="text" placeholder="Enter your name">
+
+        <label for="email" id="email-label"> Which E-mail do you use the most? </label>
+
+          <input required id="email" type="email" placeholder="Enter your Email">
+
+        <label for="age" id="number-label"> How much time have you spent in this world? </label>
+
+          <input required id="number" type="number" min="13" max="99" placeholder="Enter your age">
+      </fieldset>
+
+      <fieldset>
+        <label for="question" id="question"> Which activity do you enjoy the most? </label>
+
+          <select id="dropdown" name="dropdown">
+            <option value="">Select your favorite</option>
+            <option value="1">Study</option>
+            <option value="2">Play video-games</option>
+            <option value="3">Workout</option>
+            <option value="4">Hang out</option>
+            <option value="5">Watch movies</option>
+            <option value="6">Navigate through social medias</option>
+            <option value="7">Other</option>
+          </select>
+      </fieldset>
+
+      <fieldset>
+        <label id="kind">What kind of person are you?</label>
+
+        <label for="friendly" class="input-container">
+          <input id="friendly" type="checkbox" name="kind" value="friendly" class="inline">Friendly
+        </label>
+            
+        <label for="indiv" class="input-container">
+          <input id="indiv" type="checkbox" name="kind" value="indiv" class="inline">Individualistic
+        </label>
+
+        <label for="afraid" class="input-container">
+          <input id="afraid" type="checkbox" name="kind" value="afraid" class="inline">Afraid of social interaction
+        </label>
+
+        <label for="idk" class="input-container">
+          <input id="idk" type="checkbox" name="kind" value="idk" class="inline">Idk, just go through the flow
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <label id="program"> Do you program? </label>
+
+        <label class="input-container">
+          <input required id="yes" type="radio" name="yes-no-learn" value="yes" class="inline">Yes
+        </label>
+
+        <label class="input-container">
+          <input required id="no" type="radio" name="yes-no-learn" value="no" class="inline">No
+        </label>
+
+        <label class="input-container">
+          <input required id="learn" type="radio" name="yes-no-learn" value="learn" class="inline">Still learning
+        </label>
+        </fieldset>
+
+      <fieldset>
+        <label for="extra" id="extra-label"> Anything else you want to say?</label>
+        <textarea></textarea>
+      </fieldset>
+    </div>
+
+    <button type="submit" id="submit" class="button">Submit</button>
+
+    </form>
+  </body>
