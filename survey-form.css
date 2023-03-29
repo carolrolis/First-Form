@@ -4,6 +4,10 @@
     box-sizing:border-box;
 }
 
+:root {
+     color-scheme: light only;
+}
+
 body {
     background-image: url(https://images2.alphacoders.com/705/thumb-1920-705837.png);
     background-attachment:fixed;
