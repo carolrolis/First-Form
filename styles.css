@@ -114,6 +114,10 @@ textarea {
 
 @media (max-width: 600px)
 {
+  .button{ 
+    max-width:80%;
+    }
+    
   .container {
     width: unset;
     max-width: 300px;
