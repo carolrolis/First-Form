@@ -114,14 +114,23 @@ textarea {
 
 @media (max-width: 600px)
 {
+   *{
+    color:white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color:rebeccapurple;
+    }
+    input, #dropdown, option, .input-container{
+    -webkit-text-stroke-width:0px;
+    color:black;
+    }
   .button{ 
     max-width:80%;
     }
-    
+
   .container {
     width: unset;
     max-width: 300px;
     min-width: 200px;
-    
+
   }
 }
